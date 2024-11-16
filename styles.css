@@ -124,6 +124,36 @@ footer {
     bottom: 0;
 }
 
+/* General List Style */
+.custom-list {
+    list-style-type: square; /* Change the bullet style */
+    padding: 20px; /* Add padding around the list */
+    background-color: #cd7ec1f8; /* Light background color */
+    border: 2px solid #ddd; /* Border around the list */
+    border-radius: 10px; /* Rounded corners */
+    max-width: 300px; /* Set a maximum width */
+    margin: 20px auto; /* Center the list */
+}
+
+/* List Items Style */
+.custom-list li {
+    list-style-type: none;
+    color: #333; /* Text color */
+    font-size: 18px; /* Font size */
+    font-weight: bold; /* Bold text */
+    padding: 10px 0; /* Space between items */
+    transition: transform 0.3s, color 0.3s; /* Smooth hover effect */
+}
+
+/* Hover Effect for List Items */
+.custom-list li:hover {
+    color: #d2dc10; /* Change text color on hover */
+    transform: translateX(10px); /* Slide effect */
+    cursor: pointer; /* Change cursor on hover */
+}
+
+
+
 /* Responsive Design */
 @media screen and (max-width: 768px) {
     .wrapper {
